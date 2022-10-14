@@ -1,0 +1,887 @@
+{
+    "geocoded_waypoints": [
+        {
+            "geocoder_status": "OK",
+            "partial_match": true,
+            "place_id": "ChIJg3XXhNrX3IARUc0M9bIC_X4",
+            "types": [
+                "amusement_park",
+                "establishment",
+                "point_of_interest"
+            ]
+        },
+        {
+            "geocoder_status": "OK",
+            "partial_match": true,
+            "place_id": "ChIJzzgyJU--woARcZqceSdQ3dM",
+            "types": [
+                "amusement_park",
+                "establishment",
+                "point_of_interest",
+                "tourist_attraction"
+            ]
+        }
+    ],
+    "routes": [
+        {
+            "bounds": {
+                "northeast": {
+                    "lat": 34.139542,
+                    "lng": -117.8768856
+                },
+                "southwest": {
+                    "lat": 33.8027229,
+                    "lng": -118.363625
+                }
+            },
+            "copyrights": "Map data ©2022",
+            "legs": [
+                {
+                    "arrival_time": {
+                        "text": "2:39pm",
+                        "time_zone": "America/Los_Angeles",
+                        "value": 1665783554
+                    },
+                    "departure_time": {
+                        "text": "12:21pm",
+                        "time_zone": "America/Los_Angeles",
+                        "value": 1665775306
+                    },
+                    "distance": {
+                        "text": "45.1 mi",
+                        "value": 72508
+                    },
+                    "duration": {
+                        "text": "2 hours 17 mins",
+                        "value": 8248
+                    },
+                    "end_address": "100 Universal City Plaza, Universal City, CA 91608, USA",
+                    "end_location": {
+                        "lat": 34.1363696,
+                        "lng": -118.3572194
+                    },
+                    "start_address": "Disneyland Dr, Anaheim, CA 92802, USA",
+                    "start_location": {
+                        "lat": 33.8034606,
+                        "lng": -117.923854
+                    },
+                    "steps": [
+                        {
+                            "distance": {
+                                "text": "0.2 mi",
+                                "value": 356
+                            },
+                            "duration": {
+                                "text": "5 mins",
+                                "value": 307
+                            },
+                            "end_location": {
+                                "lat": 33.803013,
+                                "lng": -117.9272137
+                            },
+                            "html_instructions": "Walk to Katella-Casa Vista",
+                            "polyline": {
+                                "points": "sfimE`_wnUBDP?L?PB?P?T?bA?|A?~@?T?n@?pB?b@?zA?`@`@A@P?J?T"
+                            },
+                            "start_location": {
+                                "lat": 33.8034606,
+                                "lng": -117.923854
+                            },
+                            "steps": [
+                                {
+                                    "distance": {
+                                        "text": "89 ft",
+                                        "value": 27
+                                    },
+                                    "duration": {
+                                        "text": "1 min",
+                                        "value": 29
+                                    },
+                                    "end_location": {
+                                        "lat": 33.8031924,
+                                        "lng": -117.9239872
+                                    },
+                                    "html_instructions": "Head <b>southwest</b> on <b>Disneyland Dr</b>/<wbr/><b>West St</b> toward <b>W Katella Ave</b>",
+                                    "polyline": {
+                                        "points": "sfimE`_wnUBDP?L?PB?P"
+                                    },
+                                    "start_location": {
+                                        "lat": 33.8034606,
+                                        "lng": -117.923854
+                                    },
+                                    "travel_mode": "WALKING"
+                                },
+                                {
+                                    "distance": {
+                                        "text": "0.2 mi",
+                                        "value": 285
+                                    },
+                                    "duration": {
+                                        "text": "4 mins",
+                                        "value": 245
+                                    },
+                                    "end_location": {
+                                        "lat": 33.8031855,
+                                        "lng": -117.9269611
+                                    },
+                                    "html_instructions": "Turn <b>right</b> onto <b>W Katella Ave</b>",
+                                    "maneuver": "turn-right",
+                                    "polyline": {
+                                        "points": "}dimE|_wnU?T?bA?|A?~@?T?n@?pB?b@?zA?`@"
+                                    },
+                                    "start_location": {
+                                        "lat": 33.8031924,
+                                        "lng": -117.9239872
+                                    },
+                                    "travel_mode": "WALKING"
+                                },
+                                {
+                                    "distance": {
+                                        "text": "79 ft",
+                                        "value": 24
+                                    },
+                                    "duration": {
+                                        "text": "1 min",
+                                        "value": 17
+                                    },
+                                    "end_location": {
+                                        "lat": 33.8030143,
+                                        "lng": -117.9270404
+                                    },
+                                    "html_instructions": "Turn <b>left</b> onto <b>S Casa Vista St</b>",
+                                    "maneuver": "turn-left",
+                                    "polyline": {
+                                        "points": "}dimEnrwnU`@A@P"
+                                    },
+                                    "start_location": {
+                                        "lat": 33.8031855,
+                                        "lng": -117.9269611
+                                    },
+                                    "travel_mode": "WALKING"
+                                },
+                                {
+                                    "distance": {
+                                        "text": "66 ft",
+                                        "value": 20
+                                    },
+                                    "duration": {
+                                        "text": "1 min",
+                                        "value": 16
+                                    },
+                                    "end_location": {
+                                        "lat": 33.803013,
+                                        "lng": -117.9272137
+                                    },
+                                    "html_instructions": "Turn <b>right</b><div style=\"font-size:0.9em\">Destination will be on the right</div>",
+                                    "maneuver": "turn-right",
+                                    "polyline": {
+                                        "points": "ycimE~rwnU?J?T"
+                                    },
+                                    "start_location": {
+                                        "lat": 33.8030143,
+                                        "lng": -117.9270404
+                                    },
+                                    "travel_mode": "WALKING"
+                                }
+                            ],
+                            "travel_mode": "WALKING"
+                        },
+                        {
+                            "distance": {
+                                "text": "3.3 mi",
+                                "value": 5357
+                            },
+                            "duration": {
+                                "text": "18 mins",
+                                "value": 1080
+                            },
+                            "end_location": {
+                                "lat": 33.8037523,
+                                "lng": -117.8777714
+                            },
+                            "html_instructions": "Bus towards The Village at Orange",
+                            "polyline": {
+                                "points": "odimEbtwnUU??i@?k@?{A?c@?qBAo@?U?_A?}A?iA?]@_B?c@?OAq@?iB?iA?aB?aCAiE?yE?wFCeD?gC?u@@eAAa@?{A?K?{C?_C@uM?K?i@?uB?]?eA?e@?mD?qA?s@@_@?mD@YAk@?}@?eA?cC?oA?sBA_@?iB?E?O?e@?E?_@?u@?W?A?A?W?A?A?_@?C?Y?G?Q?A?U?A?O?Y?C?U?A?G?A?E?qCAcC?o@?w@?mA?A?A?E?W?oA?Y?EAkB@oA?cA?[?G?W@gB?eBAS?O@eD?c@?q@?_ACeB@_B?k@?gF?sC?cA?SAoA?cD?c@?oA@}AA}A?a@E[ASCUCYCQEWEm@Uw@Qi@IQO]OYQYa@o@s@cAm@aASYu@kAe@u@EKOWK@y@sAWs@So@Ia@Ou@E]Gk@COCw@?uB?iA?qA?E?gA?eBC{B@i@A_C@sA`Hb@d@FnB~@`Af@@ARITEHKBI@AVXP@HO@Gt@_DCQGGYKg@tBETMd@?@ILO?yAm@FU"
+                            },
+                            "start_location": {
+                                "lat": 33.80312,
+                                "lng": -117.927215
+                            },
+                            "transit_details": {
+                                "arrival_stop": {
+                                    "location": {
+                                        "lat": 33.8037523,
+                                        "lng": -117.8777714
+                                    },
+                                    "name": "Artic - Dock 6"
+                                },
+                                "arrival_time": {
+                                    "text": "12:54pm",
+                                    "time_zone": "America/Los_Angeles",
+                                    "value": 1665777264
+                                },
+                                "departure_stop": {
+                                    "location": {
+                                        "lat": 33.80312,
+                                        "lng": -117.927215
+                                    },
+                                    "name": "Katella-Casa Vista"
+                                },
+                                "departure_time": {
+                                    "text": "12:36pm",
+                                    "time_zone": "America/Los_Angeles",
+                                    "value": 1665776184
+                                },
+                                "headsign": "The Village at Orange",
+                                "line": {
+                                    "agencies": [
+                                        {
+                                            "name": "Orange County Transportation Authority",
+                                            "phone": "1 (714) 636-7433",
+                                            "url": "http://www.octa.net/Bus-Transit/Overview"
+                                        }
+                                    ],
+                                    "color": "#00aff2",
+                                    "name": "Long Beach - Orange",
+                                    "short_name": "50",
+                                    "text_color": "#000000",
+                                    "url": "http://www.octa.net/eBusBook/RoutePDF/route050.pdf",
+                                    "vehicle": {
+                                        "icon": "//maps.gstatic.com/mapfiles/transit/iw2/6/bus2.png",
+                                        "name": "Bus",
+                                        "type": "BUS"
+                                    }
+                                },
+                                "num_stops": 9
+                            },
+                            "travel_mode": "TRANSIT"
+                        },
+                        {
+                            "distance": {
+                                "text": "282 ft",
+                                "value": 86
+                            },
+                            "duration": {
+                                "text": "1 min",
+                                "value": 86
+                            },
+                            "end_location": {
+                                "lat": 33.802988,
+                                "lng": -117.877196
+                            },
+                            "html_instructions": "Walk to Anaheim (E)",
+                            "polyline": {
+                                "points": "seimEx`nnU|@iD"
+                            },
+                            "start_location": {
+                                "lat": 33.8033025,
+                                "lng": -117.8780467
+                            },
+                            "steps": [
+                                {
+                                    "distance": {
+                                        "text": "282 ft",
+                                        "value": 86
+                                    },
+                                    "duration": {
+                                        "text": "1 min",
+                                        "value": 86
+                                    },
+                                    "end_location": {
+                                        "lat": 33.802988,
+                                        "lng": -117.877196
+                                    },
+                                    "polyline": {
+                                        "points": "seimEx`nnU|@iD"
+                                    },
+                                    "start_location": {
+                                        "lat": 33.8033025,
+                                        "lng": -117.8780467
+                                    },
+                                    "travel_mode": "WALKING"
+                                }
+                            ],
+                            "travel_mode": "WALKING"
+                        },
+                        {
+                            "distance": {
+                                "text": "27.8 mi",
+                                "value": 44781
+                            },
+                            "duration": {
+                                "text": "30 mins",
+                                "value": 1800
+                            },
+                            "end_location": {
+                                "lat": 34.0338675,
+                                "lng": -118.2357129
+                            },
+                            "html_instructions": "Bus towards Los Angeles",
+                            "polyline": {
+                                "points": "ucimEn{mnUwD[?G?G?AAAAECAACGAYICLCHEHAFCHAB_@MIf@]K_Ba@U^?DAFCFAJCr@e@AWAY?A?_A?]@?zAAnB?zB@f@?`A@v@?D?zAAF@`@?t@@vC@^?H@H?F@F@VBPJp@Ln@Jd@Nb@\\~@\\p@Xd@V`@JJp@dAz@lAz@nAb@t@HNh@`AJRN^L^DLNp@DVFXHp@Bd@@J@\\@|@?b@?xC?h@?R?L?fD?v@ArB?pB?^?|B@bBClC@x@Cz@@jB@|@@zC?N?L@fA?jB?zB@xA?fDA`B?n@?zA?^?VAr@@nA?hBQNUVIHKJQRe@f@]`@_@d@[b@QTKLW`@ABm@|@m@~@a@p@IJABABCBCFSZCDq@lAKRy@tA{@lAU^ORSVGNEZAB}@fAEFa@d@OP[\\w@`A{@~@UTyB|BuBxBc@b@c@`@_@b@q@p@cAdAuCzCKJONA@o@r@u@t@k@n@k@j@]\\wAzAmBpBo@x@qAtAk@l@i@h@QRSTg@h@wAxAgBlBc@ZmApAaBdBwEzEy@z@[Z{B|BOPa@d@MPu@v@OPu@z@gBhBONgAhAeBdBkAlAw@v@k@h@ABu@r@KJ_@^GFu@p@SNi@b@g@`@eBrAUPyAhAEDA?i@`@m@`@OJOJq@f@CBIDEBQL[Rc@\\URc@\\e@b@iAdAe@f@g@h@_@^QRSRWX_@`@YXYZSReBlBa@b@GFm@n@UXe@d@A@o@r@KJ[\\SPMPk@l@sAvAu@v@STSTOL[\\u@z@OPWXORQRQTQTMNOTGJMROTa@t@S\\OZOZMVQd@IN?BQ`@Qf@ADKXCFIT?@GRQh@Md@Kf@A@CLERIZETAHG\\G\\EXEREZIh@Kv@ADE\\EX?@Ir@Ij@Kr@UrAE\\e@|COx@Id@CRKf@ERCHIZKb@GVIZIXK\\Wt@KZABy@pBGNMXOZKT_@x@Yp@]v@Sb@GLMXMXMXMXIPSb@Yr@c@~@MZ]v@m@rAYl@gAdCk@nAe@fACDe@fAi@jAa@~@Q`@MXKVMXQ\\KVO\\MXOXMZMZMXOXMZMXMVO\\KVOZO\\IRQ^MXMZKREHIRMXIPSb@KVOZMZMXOZOZMZMXMZOZOZKVMXOZMXCHINOZg@bAc@z@OXOTQZOTMTCDMTQZQVS^QX[h@c@r@MVOTQ\\QXILAFOVQ\\OXMZMVGLEHO\\KXMVCJQ`@Qb@M\\KZGNSf@KXMZKZIRm@zAMZKXMVeAhCMZMXM^MVMZMZGLg@pAIPGPQ`@KXMXKXMZMZABKXKVM\\MXKXGNEJKVMZADKTM\\KXM\\MXEJUj@MXM\\MZEJELOZKVMZO\\KXQ^IROZMZOZKXMVOZGLELIPO\\KTEHIPABYn@GPCDCFGLEJEHGNGPEFGNGNsA~Cq@~AO\\O^IRs@~AMXINQ`@Wh@S^ABa@t@QXo@fAMTUZKRGHOT[`@INyAnBQVKNOR_@f@s@bAc@j@_BvBiA|A_@h@SX_@f@c@v@_@n@IPKPSf@O^M\\CFIVW|@A@IZMh@Qv@?@Op@Kd@Op@Ib@Ol@e@dC_@fBQt@Qz@YtAMp@Mh@CLMj@YfAEN[lAQn@Ux@K\\Sn@Wt@o@dBKX]z@Yr@[r@[r@Yj@_@x@CDYh@KRIN[j@EJGHMVQXABMTQXm@dAk@|@INA@{@xAu@pAKRMRq@lAo@pAMTIPKVINKTGNINO^EFGPSb@Sb@KTKTGNIRO\\GLGN_@v@ADKTKTSd@OZIPk@jAGLQ`@e@~@?@{@jBoAbD}@nBOZKV_@v@mArCSb@Qb@Sd@aBpDg@jAi@lAO^KTsArCABEHINGNCFEFGPCDGLEL]r@Yr@e@bAmAlCyAjDKTYl@a@|@{@jBi@bACDa@r@OTQVA@CDILEHCDg@t@c@l@i@t@g@n@[`@]`@QVq@t@s@z@OJIH]h@c@v@}BbDsBtCe@x@Y`@a@h@q@pAqC~EoBjFQh@Qh@EJGRy@`De@rA_@fAWx@]dAi@xAUl@O`@ADKVADYx@GP_A~B_@~@KTGPyDtIy@jBO^cAxBi@jAo@xAWl@[p@w@fBqAtCyEdJw@fBEHOVGJU`@{@zAQ\\c@x@e@hAcHpNOXq@rAq@~As@`Bc@bASj@y@rBQ^O^}A~Dw@lBWl@s@fBYp@}A|Ds@`B_@`AQ`@Qb@e@jAo@xA]z@c@dAK^MXMXM\\MVA@MZ[t@GPMb@]z@g@hAITCFc@`AEJWh@e@dAKXsArCq@xA_@r@gAxBEJ}@fBKRGJILc@~@MRc@~@Yh@[d@OZk@hAe@|@EHMX_@p@MXOX_@r@MXOVMXa@v@IXS^A@O\\IPWf@GLCH_@t@ADm@pAUf@?@k@lA?@w@bBEHKRYn@GJEJEH_@x@MXEH}@jBg@hAeA~BuA|CGLMVILYp@IRUd@e@dAOb@MVi@lAc@`AKRi@dA[n@c@z@a@t@Yh@GJEHS\\s@jAe@v@_@h@GJSZUZMP_@h@QR?@a@h@QPo@x@_@d@KLs@x@Y\\_@`@]\\k@n@gBdBmCjCEBgAfA[VQPe@d@q@p@SPg@f@SRUTwAvAWTSRURg@h@SPe@f@OLUT_@`@STSRORUXSRILGHSTUZMRe@n@OTOVQVOVQXINGHS^S^QZQ\\S`@Q\\Q^Q^Wl@[n@e@bA_@v@GHGNMVMXOZMX]p@OZOXMXOXOVOXOVOX_@n@QXINU\\SZOVQVOROTUXu@bASVQTSTSTIJIJQRQRg@f@STUTg@f@i@d@m@h@g@b@UPk@d@k@d@aAp@UPYPQL]Ta@TWPu@d@e@\\k@^UNs@b@k@\\q@`@m@^g@XOJQJCB[PWPm@^cAn@o@`@OJo@`@WNo@^WPm@^UNWNWPA@QJUNWNUNWNWNQJ[TWNWNUNUNUNKFIFUNWNWNUNWNWPUNWNUPC?SLWPWPWPWNCBOHKFCBIFSLULUNQJEBUNMFIFWLUNULULUNWNE@OJWNWLSLGDQHUNUNWLWNUNUNYNWPC@g@\\A?UNUNULYP_@VIDo@`@wGdE{A`A_B`A{@h@iBjA{ClBoBlAw@f@}@j@OJWNWNyA~@STIFcAl@IFgBfA{A~@qBnAkEjCi@\\y@`@k@\\]Re@X[PMHULOJA@_@Ta@T{@h@A@QJ[PSLULm@^{@d@_@VYPWLy@f@C@i@\\q@`@UL]Tk@ZULSLULWNKHOHQJ[PUNEBs@^a@VWN[PSLEBg@XKDGDWNULWNWLaAj@[Pc@VYPYN[R}@f@KFSL_@TaAj@]Pc@Vk@\\IDSLy@d@UNWLWNc@V_CtAQJWPWNm@b@KHSL[Vk@d@e@b@]ZQPUTIJWX]^OROPGHi@r@EFKNUZYd@g@t@GHQXQXA@ABUZcA~AW`@QV[f@KN[f@e@p@OTMROVSZQVOTEHq@bAgA`Bw@lAYd@QVkBtCg@v@QVOTA@INQXa@l@QV?@e@r@ORW^INQVKPCD_@h@e@r@_@n@IJW^KPGH]h@KPc@p@MPEFOTQV]h@GJq@bAEFMR]h@OVMPQVOVQVQXQXY`@EFQXCBOVOTGHILOTOVGHOTGHCFQTMR]h@e@r@A@OROTQTQT_@d@g@h@WVUTURYVo@h@a@Xg@^EBQLEBEBQHSLg@XQHC@SJ_@PUJYJSHWHE@QHYHC@c@LI@WHYFYFUFYDA@SDYFWFYFWDYFYFqBb@]Fa@Ho@N[FEBs@NK@C@]Ha@HA?MD[FQDs@NYFWF_@FQDWFKBKBWFOBIBYFYDYFWFWFOBKBUFYHWHi@Nc@PUHSHQF[NE@a@RMFWNMFMHSJCBMFYRi@^ULOJIFOJUPUNOHGFUNSLUPQJGDg@\\s@d@}@l@CBWPWNSNUNUNA?WRQLi@`@UNMJIFSPSPWRSRQNQRi@f@GFMLQPq@p@_A~@YX[Ze@d@[Za@`@SRSTe@d@g@f@i@f@e@f@g@f@i@f@e@f@SRQPMJYZk@h@e@f@g@f@g@f@EDa@b@QN}@|@_@`@GDg@h@g@d@QPg@h@ONWXSTQTSRQVQVOTOTOVQVWd@SZ_@n@IJo@fA_@l@CHm@bAg@v@_AjAaA`Ao@l@WVCBMJ?@MN_@\\k@h@GF_A|@a@b@SRSP_@^{@v@AB[X]Z{@x@c@^SRURKJQNa@`@g@d@c@`@ONuArAq@l@kAhA_@^qDjDKHe@d@{@v@k@h@UTaA~@ONOLWVUTYVONEBWV[ZWTqBjBgA~@o@d@q@`@c@Ve@TOHEBq@\\i@XKDg@VKDOJWN_@TIFq@b@k@b@i@d@EBq@l@aA~@yAxA_Av@kBfBUR_A|@_@\\s@p@s@p@gAbAkAfAk@j@_@^_@`@e@f@gBtB{AfBk@p@w@~@CBWZcAlAw@~@w@|@ORY\\Y^k@x@c@v@[h@Sd@EHO\\Q^Ub@]p@U^ILEFGJ]f@a@h@Y^[^_@^i@j@URs@l@YVABi@b@OL]\\y@r@UP]ZUTWTc@d@SVQVEFIJ[d@a@n@GLCDKRO\\GJKVSb@O\\i@xAYz@a@fAWt@Yv@Qf@i@xAeA~Ce@rAWn@i@~AYz@KVM^i@~A[z@Yz@KXYhACLAHCFc@pBUhAI`@ALEPCLAHERET_@dBMb@K^GNM`@O`@KVQ`@q@pAINMXKPWh@GJABUf@Uf@KVaAlCM\\GRQf@c@nAQd@KZUp@m@bBW~@O`@]~@Wt@KZCDQh@KVWt@a@jAA@ENq@nBELIRMd@M\\M`@EPWbAKb@GRMl@EX]tBOtAGd@Gz@C^?@El@AD?HCj@A`@A^AX?B?^A\\?\\?@@|@?`@?T?`B?x@?B?^?b@?n@?N?`@?\\?~@@\\?`@?|@?\\?\\?\\?b@?`@?nA?J?X@`@?b@@^?^?\\?`@?Z?D?X?B?Z?V?D?`@?\\?^?\\?X?F?`@?\\?T?F?^A\\A\\A\\?FAVCb@Gr@Cb@?B?@?@CVE\\C^CPCLCXA@?@EX?BG\\CRCLEVABGZGZGXA@?BGVI^K^IXIZM\\K\\ABK\\M\\IXADITIRADKZKZKZMZGVCFKVKZK\\KVK\\M^CHENKXITCFIXADITGNENADGNABGPCFAFGPABKZM\\GRCFIZM\\Wr@KZIXKZYv@IZKXM\\ADITKZKZKZKZKZKZCFIRIZKZKXADKZIVABITKZKXM\\KZCJGPKXKZGPELCHENKXK\\A@K\\KXI\\IZCHGTIXIZI\\GTSv@M`@IZIZEPCJIVM`@IZKZMb@GRCFKZIPAFMZMXKZg@nAO`@KXM\\IRM\\Yr@Qd@ITKVM\\KVMZMXM^MZUj@O^MXITA@CDGRYn@ABO^OZGNGJKVKVMZMVGNABO\\IPGNO`@Uj@M\\KVM^KVKXKXIVO^Up@Wr@KZSh@[~@ABO`@c@nAEDA?Yz@_@dAQb@IRIR?@EJEFMTO\\Yb@CDo@dAKJo@z@_@`@ONIZ?@EFQPGFCB[\\CBUVUVA@CBEDQRC@YZCBg@f@EDc@\\A@UNA@C@[RABULCBCBIBKDSFE@G?A?G?E?C?CAGCAAAAECEECECECIAECK?I?E@O@GBI@G@C@ABEFCFEFA?AFADAB?H?FBB@NHDDBB@@@@?@@@?@@D@BBX?@@L?@FNCPCPCNGZKh@Kj@ADAJAHAJGXOz@Ib@ADOz@AD?F?L?BAX?VAvB?nA?NCjB?lAA`B?h@?z@?r@A\\?j@AxA?f@?j@?X?R?d@@^?dAArD?zA?L?J?J?L?r@?d@Ap@?f@?DCNEd@?j@?V?P?L?H?H?L?ZAfAAVCfA?NA^?D?DC~@AF?NAr@?DAP?B?FAN?RCV?RCf@AVP?d@@^@AR?D?B?@A@ABC?C@K?E?A@A@A??@AD?B?B?J?BCl@Av@AD@@?@B@D@J?H@@?@A@??A@A@A?C?CB{@`BH"
+                            },
+                            "start_location": {
+                                "lat": 33.802988,
+                                "lng": -117.877196
+                            },
+                            "transit_details": {
+                                "arrival_stop": {
+                                    "location": {
+                                        "lat": 34.0338675,
+                                        "lng": -118.2357129
+                                    },
+                                    "name": "Los Angeles"
+                                },
+                                "arrival_time": {
+                                    "text": "1:35pm",
+                                    "time_zone": "America/Los_Angeles",
+                                    "value": 1665779700
+                                },
+                                "departure_stop": {
+                                    "location": {
+                                        "lat": 33.802988,
+                                        "lng": -117.877196
+                                    },
+                                    "name": "Anaheim (E)"
+                                },
+                                "departure_time": {
+                                    "text": "1:05pm",
+                                    "time_zone": "America/Los_Angeles",
+                                    "value": 1665777900
+                                },
+                                "headsign": "Los Angeles",
+                                "line": {
+                                    "agencies": [
+                                        {
+                                            "name": "Greyhound",
+                                            "phone": "1 (800) 231-2222",
+                                            "url": "https://www.greyhound.com/transit"
+                                        }
+                                    ],
+                                    "color": "#004963",
+                                    "name": "\"Las Vegas, NV - Los Angeles, CA\"",
+                                    "short_name": "\"Greyhound\"",
+                                    "text_color": "#ffffff",
+                                    "vehicle": {
+                                        "icon": "//maps.gstatic.com/mapfiles/transit/iw2/6/bus2.png",
+                                        "name": "Bus",
+                                        "type": "BUS"
+                                    }
+                                },
+                                "num_stops": 1
+                            },
+                            "travel_mode": "TRANSIT"
+                        },
+                        {
+                            "distance": {
+                                "text": "0.1 mi",
+                                "value": 238
+                            },
+                            "duration": {
+                                "text": "3 mins",
+                                "value": 198
+                            },
+                            "end_location": {
+                                "lat": 34.0348304,
+                                "lng": -118.2356569
+                            },
+                            "html_instructions": "Walk to 7th / Decatur",
+                            "polyline": {
+                                "points": "wevnEf|spUDqB@OwAEc@AE?E?_@A]AQ?MA?HARAfABV?D"
+                            },
+                            "start_location": {
+                                "lat": 34.0337248,
+                                "lng": -118.2357231
+                            },
+                            "steps": [
+                                {
+                                    "distance": {
+                                        "text": "187 ft",
+                                        "value": 57
+                                    },
+                                    "duration": {
+                                        "text": "1 min",
+                                        "value": 40
+                                    },
+                                    "end_location": {
+                                        "lat": 34.033682,
+                                        "lng": -118.2350652
+                                    },
+                                    "html_instructions": "Head <b>east</b> toward <b>Decatur St</b><div style=\"font-size:0.9em\">Restricted usage road</div>",
+                                    "polyline": {
+                                        "points": "wevnEf|spUDqB@O"
+                                    },
+                                    "start_location": {
+                                        "lat": 34.0337248,
+                                        "lng": -118.2357231
+                                    },
+                                    "travel_mode": "WALKING"
+                                },
+                                {
+                                    "distance": {
+                                        "text": "407 ft",
+                                        "value": 124
+                                    },
+                                    "duration": {
+                                        "text": "2 mins",
+                                        "value": 105
+                                    },
+                                    "end_location": {
+                                        "lat": 34.0348335,
+                                        "lng": -118.2350469
+                                    },
+                                    "html_instructions": "Turn <b>left</b> onto <b>Decatur St</b>",
+                                    "maneuver": "turn-left",
+                                    "polyline": {
+                                        "points": "oevnEdxspUwAEc@AE?E?_@A]AQ?MA?H"
+                                    },
+                                    "start_location": {
+                                        "lat": 34.033682,
+                                        "lng": -118.2350652
+                                    },
+                                    "travel_mode": "WALKING"
+                                },
+                                {
+                                    "distance": {
+                                        "text": "187 ft",
+                                        "value": 57
+                                    },
+                                    "duration": {
+                                        "text": "1 min",
+                                        "value": 53
+                                    },
+                                    "end_location": {
+                                        "lat": 34.0348304,
+                                        "lng": -118.2356569
+                                    },
+                                    "html_instructions": "Turn <b>left</b> onto <b>E 7th St</b><div style=\"font-size:0.9em\">Destination will be on the right</div>",
+                                    "maneuver": "turn-left",
+                                    "polyline": {
+                                        "points": "ulvnE`xspUARAfABV?D"
+                                    },
+                                    "start_location": {
+                                        "lat": 34.0348335,
+                                        "lng": -118.2350469
+                                    },
+                                    "travel_mode": "WALKING"
+                                }
+                            ],
+                            "travel_mode": "WALKING"
+                        },
+                        {
+                            "distance": {
+                                "text": "1.7 mi",
+                                "value": 2663
+                            },
+                            "duration": {
+                                "text": "13 mins",
+                                "value": 780
+                            },
+                            "end_location": {
+                                "lat": 34.049103,
+                                "lng": -118.252098
+                            },
+                            "html_instructions": "Bus towards Downtown LA - Sunset - Figueroa",
+                            "polyline": {
+                                "points": "_mvnEx{spUP@GbB?NAVMfE?HAv@Ap@ALCn@AN?BANANGZWd@IP[d@IPCDS\\IJq@bAw@nAw@rAW^]l@CBWb@MPSXQXc@p@Wd@MRc@p@QXW`@KPc@p@]j@cA`B_@j@GH}@vAiBvCi@z@MR_@l@KNILg@x@kAjB]h@k@~@MTKLq@fAmAnBU\\Yf@W^_@j@SXi@~@IJMR_BhCm@q@_BaB{@aA[[c@g@y@}@IIq@o@SQEGWUiAcAACa@_@MOy@vAEFi@`AU`@cAfBo@jAUb@cAlBgAhBgAlBYj@g@|@Wf@Wb@OO"
+                            },
+                            "start_location": {
+                                "lat": 34.0348828,
+                                "lng": -118.2356504
+                            },
+                            "transit_details": {
+                                "arrival_stop": {
+                                    "location": {
+                                        "lat": 34.049103,
+                                        "lng": -118.252098
+                                    },
+                                    "name": "5th / Hill"
+                                },
+                                "arrival_time": {
+                                    "text": "1:56pm",
+                                    "time_zone": "America/Los_Angeles",
+                                    "value": 1665781016
+                                },
+                                "departure_stop": {
+                                    "location": {
+                                        "lat": 34.0348828,
+                                        "lng": -118.2356504
+                                    },
+                                    "name": "7th / Decatur"
+                                },
+                                "departure_time": {
+                                    "text": "1:43pm",
+                                    "time_zone": "America/Los_Angeles",
+                                    "value": 1665780236
+                                },
+                                "headsign": "Downtown LA - Sunset - Figueroa",
+                                "line": {
+                                    "agencies": [
+                                        {
+                                            "name": "Metro - Los Angeles",
+                                            "phone": "1 (323) 466-3876",
+                                            "url": "http://www.metro.net/"
+                                        }
+                                    ],
+                                    "color": "#ed7d31",
+                                    "name": "Metro Local Line",
+                                    "short_name": "60",
+                                    "text_color": "#ffffff",
+                                    "vehicle": {
+                                        "icon": "//maps.gstatic.com/mapfiles/transit/iw2/6/bus2.png",
+                                        "name": "Bus",
+                                        "type": "BUS"
+                                    }
+                                },
+                                "num_stops": 6
+                            },
+                            "travel_mode": "TRANSIT"
+                        },
+                        {
+                            "distance": {
+                                "text": "338 ft",
+                                "value": 103
+                            },
+                            "duration": {
+                                "text": "2 mins",
+                                "value": 98
+                            },
+                            "end_location": {
+                                "lat": 34.0484275,
+                                "lng": -118.2515702
+                            },
+                            "html_instructions": "Walk to Pershing Square",
+                            "polyline": {
+                                "points": "qdynEn`wpUJHJHFMb@u@Tc@TREFMP"
+                            },
+                            "start_location": {
+                                "lat": 34.0488894,
+                                "lng": -118.2517615
+                            },
+                            "steps": [
+                                {
+                                    "distance": {
+                                        "text": "39 ft",
+                                        "value": 12
+                                    },
+                                    "duration": {
+                                        "text": "1 min",
+                                        "value": 8
+                                    },
+                                    "end_location": {
+                                        "lat": 34.0487288,
+                                        "lng": -118.2517888
+                                    },
+                                    "html_instructions": "Head <b>southwest</b> on <b>S Hill St</b> toward <b>W 5th St</b>",
+                                    "polyline": {
+                                        "points": "qdynEn`wpUJHJHFM"
+                                    },
+                                    "start_location": {
+                                        "lat": 34.0488894,
+                                        "lng": -118.2517615
+                                    },
+                                    "travel_mode": "WALKING"
+                                },
+                                {
+                                    "distance": {
+                                        "text": "197 ft",
+                                        "value": 60
+                                    },
+                                    "duration": {
+                                        "text": "1 min",
+                                        "value": 64
+                                    },
+                                    "end_location": {
+                                        "lat": 34.0484429,
+                                        "lng": -118.2513363
+                                    },
+                                    "html_instructions": "Turn <b>left</b> onto <b>W 5th St</b>",
+                                    "maneuver": "turn-left",
+                                    "polyline": {
+                                        "points": "qcynEt`wpUb@u@Tc@"
+                                    },
+                                    "start_location": {
+                                        "lat": 34.0487288,
+                                        "lng": -118.2517888
+                                    },
+                                    "travel_mode": "WALKING"
+                                },
+                                {
+                                    "distance": {
+                                        "text": "66 ft",
+                                        "value": 20
+                                    },
+                                    "duration": {
+                                        "text": "1 min",
+                                        "value": 14
+                                    },
+                                    "end_location": {
+                                        "lat": 34.0483328,
+                                        "lng": -118.251439
+                                    },
+                                    "html_instructions": "Turn <b>right</b> onto <b>Lindley Pl</b><div style=\"font-size:0.9em\">Destination will be on the right</div>",
+                                    "maneuver": "turn-right",
+                                    "polyline": {
+                                        "points": "waynEz}vpUTR"
+                                    },
+                                    "start_location": {
+                                        "lat": 34.0484429,
+                                        "lng": -118.2513363
+                                    },
+                                    "travel_mode": "WALKING"
+                                },
+                                {
+                                    "distance": {
+                                        "text": "36 ft",
+                                        "value": 11
+                                    },
+                                    "duration": {
+                                        "text": "1 min",
+                                        "value": 12
+                                    },
+                                    "end_location": {
+                                        "lat": 34.0484275,
+                                        "lng": -118.2515702
+                                    },
+                                    "html_instructions": "Take entrance <span class=\"location\">Pershing Square Station - Hill & 5th</span>",
+                                    "polyline": {
+                                        "points": "gaynEv~vpUMP"
+                                    },
+                                    "start_location": {
+                                        "lat": 34.048359,
+                                        "lng": -118.25148
+                                    },
+                                    "travel_mode": "WALKING"
+                                }
+                            ],
+                            "travel_mode": "WALKING"
+                        },
+                        {
+                            "distance": {
+                                "text": "11.2 mi",
+                                "value": 18033
+                            },
+                            "duration": {
+                                "text": "22 mins",
+                                "value": 1320
+                            },
+                            "end_location": {
+                                "lat": 34.139043,
+                                "lng": -118.3625861
+                            },
+                            "html_instructions": "Subway towards Metro B Line (Red) - North Hollywood Stn",
+                            "polyline": {
+                                "points": "uaynEh_wpUc@x@xDlDdAhBTrAVbCJ|B@xBQtBmAhCsDbGkAlBgE|JwHlQsMx^iDdKOd@qJlYo@jBw@fBcBrDmHlKmCpEiJ~Vg@bBI|B@rP_@vDq@jDk@nB_AdBYQi@jAa@t@S^MTMRQTY\\YXYTYRe@XUL]Nc@Nm@R{@Rg@Ji@D[Bm@@c@?Y?YC_@E[G_@I_@MUIWMSKSKQKOMs@a@_@QWM[OWIWIUE]IWEQCYES?WC[AU?wA?_C?gB?{B?kB@eC?oC?iN@iA??TK?oF?wE?uE@i@?i@?{F@_H@_H@cI@wNB{I@aB?eA?Q?Q?mOCqWEc@AW@iNVwDfC?b[Avz@?j@?pL?j@J`oABrU@|FPxhAOtBFC@bB@rL?hAAt@Aj@Aj@Gv@Ed@G^EZG^I`@Kb@Ux@Uj@Ob@OXSb@U^[d@W^UVWXc@`@c@\\c@Xo@^m@Zk@Vq@Zq@Zq@Xk@Vw@\\w@^o@XqAj@aAd@{@^mAh@}@`@q@Zq@X}@`@}Ar@m@Vy@^w@^_A`@gBv@yAp@sAh@mAj@cA`@yB~@yCnAaCdA{BbAwCpA_CfAwCpAaCfA}CrAwAp@gBv@wCrAmAh@}@`@mEnBu@\\kD|AeDxAuEtBqD~AgD|AqBz@yAp@gBx@aCdAqB~@_FxB}CtAaCdAwCrAmEnBe@R_@Nk@Ro@Pi@Jc@FYDa@Bc@@g@@q@Ao@Ca@E{@Ku@MqB]wB]yAWoB]Jw@"
+                            },
+                            "start_location": {
+                                "lat": 34.0484275,
+                                "lng": -118.2515702
+                            },
+                            "transit_details": {
+                                "arrival_stop": {
+                                    "location": {
+                                        "lat": 34.139043,
+                                        "lng": -118.3625861
+                                    },
+                                    "name": "Universal / Studio City Station"
+                                },
+                                "arrival_time": {
+                                    "text": "2:24pm",
+                                    "time_zone": "America/Los_Angeles",
+                                    "value": 1665782660
+                                },
+                                "departure_stop": {
+                                    "location": {
+                                        "lat": 34.0484275,
+                                        "lng": -118.2515702
+                                    },
+                                    "name": "Pershing Square"
+                                },
+                                "departure_time": {
+                                    "text": "2:02pm",
+                                    "time_zone": "America/Los_Angeles",
+                                    "value": 1665781340
+                                },
+                                "headsign": "Metro B Line (Red) - North Hollywood Stn",
+                                "line": {
+                                    "agencies": [
+                                        {
+                                            "name": "Metro - Los Angeles",
+                                            "phone": "1 (323) 466-3876",
+                                            "url": "http://www.metro.net/"
+                                        }
+                                    ],
+                                    "color": "#eb131b",
+                                    "name": "Metro B Line (Red)",
+                                    "text_color": "#ffffff",
+                                    "url": "https://www.metro.net/riding/guide/B-line/",
+                                    "vehicle": {
+                                        "icon": "//maps.gstatic.com/mapfiles/transit/iw2/6/subway2.png",
+                                        "name": "Subway",
+                                        "type": "SUBWAY"
+                                    }
+                                },
+                                "num_stops": 10
+                            },
+                            "travel_mode": "TRANSIT"
+                        },
+                        {
+                            "distance": {
+                                "text": "0.6 mi",
+                                "value": 891
+                            },
+                            "duration": {
+                                "text": "15 mins",
+                                "value": 894
+                            },
+                            "end_location": {
+                                "lat": 34.1363696,
+                                "lng": -118.3572194
+                            },
+                            "html_instructions": "Walk to 100 Universal City Plaza, Universal City, CA 91608, USA",
+                            "polyline": {
+                                "points": "_xjoEdulqUcB]CITIDA@??A@??A?A?AAACAEC@ALSFIPUFIDENQBC@?DEJALF?@JHHFFB@@@?D?BE?A@I@O?I?GICDa@AM@K@eA?k@?_@@A?c@?i@?k@?k@?uA?M?gA?A@g@?ABa@@QD[DQJa@JSRa@FKLMRWj@e@JINKJGRQZQNELCDJBHDPBR?B?@DNBL@B@B@@?@B@@@B?j@BJ?B?B?BABA@A@?@AFIBCJKFEJGLGFC@?"
+                            },
+                            "start_location": {
+                                "lat": 34.139043,
+                                "lng": -118.3625861
+                            },
+                            "steps": [
+                                {
+                                    "distance": {
+                                        "text": "187 ft",
+                                        "value": 57
+                                    },
+                                    "duration": {
+                                        "text": "1 min",
+                                        "value": 58
+                                    },
+                                    "end_location": {
+                                        "lat": 34.139542,
+                                        "lng": -118.362442
+                                    },
+                                    "html_instructions": "Take exit <span class=\"location\">Universal / Studio City Station - North</span>",
+                                    "polyline": {
+                                        "points": "_xjoEdulqUcB]"
+                                    },
+                                    "start_location": {
+                                        "lat": 34.139043,
+                                        "lng": -118.3625861
+                                    },
+                                    "travel_mode": "WALKING"
+                                },
+                                {
+                                    "distance": {
+                                        "text": "0.1 mi",
+                                        "value": 160
+                                    },
+                                    "duration": {
+                                        "text": "3 mins",
+                                        "value": 181
+                                    },
+                                    "end_location": {
+                                        "lat": 34.1386697,
+                                        "lng": -118.3616554
+                                    },
+                                    "html_instructions": "Head <b>south</b><div style=\"font-size:0.9em\">Take the stairs</div>",
+                                    "polyline": {
+                                        "points": "g{joE|slqUTIDA@??A@??A?A?AAACAEC@ALSFIPUFIDENQBC@?DEJALF?@JHHFFB@@@?D?BE?A@I@O?I?G"
+                                    },
+                                    "start_location": {
+                                        "lat": 34.1395578,
+                                        "lng": -118.3623857
+                                    },
+                                    "travel_mode": "WALKING"
+                                },
+                                {
+                                    "distance": {
+                                        "text": "30 ft",
+                                        "value": 9
+                                    },
+                                    "duration": {
+                                        "text": "1 min",
+                                        "value": 6
+                                    },
+                                    "end_location": {
+                                        "lat": 34.138717,
+                                        "lng": -118.3616442
+                                    },
+                                    "html_instructions": "Turn <b>left</b> toward <b>Universal Hollywood Dr</b>",
+                                    "maneuver": "turn-left",
+                                    "polyline": {
+                                        "points": "uujoEjolqUIC"
+                                    },
+                                    "start_location": {
+                                        "lat": 34.1386697,
+                                        "lng": -118.3616554
+                                    },
+                                    "travel_mode": "WALKING"
+                                },
+                                {
+                                    "distance": {
+                                        "text": "0.3 mi",
+                                        "value": 504
+                                    },
+                                    "duration": {
+                                        "text": "9 mins",
+                                        "value": 529
+                                    },
+                                    "end_location": {
+                                        "lat": 34.1373265,
+                                        "lng": -118.3569416
+                                    },
+                                    "html_instructions": "Turn <b>right</b> onto <b>Universal Hollywood Dr</b>",
+                                    "maneuver": "turn-right",
+                                    "polyline": {
+                                        "points": "_vjoEfolqUDa@AM@K@eA?k@?_@@A?c@?i@?k@?k@?uA?M?gA?A@g@?ABa@@QD[DQJa@JSRa@FKLMRWj@e@JINKJGRQZQNELC"
+                                    },
+                                    "start_location": {
+                                        "lat": 34.138717,
+                                        "lng": -118.3616442
+                                    },
+                                    "travel_mode": "WALKING"
+                                },
+                                {
+                                    "distance": {
+                                        "text": "0.1 mi",
+                                        "value": 161
+                                    },
+                                    "duration": {
+                                        "text": "2 mins",
+                                        "value": 120
+                                    },
+                                    "end_location": {
+                                        "lat": 34.1363696,
+                                        "lng": -118.3572194
+                                    },
+                                    "html_instructions": "Turn <b>right</b> onto <b>Hotel Dr</b>",
+                                    "maneuver": "turn-right",
+                                    "polyline": {
+                                        "points": "imjoEzqkqUDJBHDPBR?B?@DNBL@B@B@@?@B@@@B?j@BJ?B?B?BABA@A@?@AFIBCJKFEJGLGFC@?"
+                                    },
+                                    "start_location": {
+                                        "lat": 34.1373265,
+                                        "lng": -118.3569416
+                                    },
+                                    "travel_mode": "WALKING"
+                                }
+                            ],
+                            "travel_mode": "WALKING"
+                        }
+                    ],
+                    "traffic_speed_entry": [],
+                    "via_waypoint": []
+                }
+            ],
+            "overview_polyline": {
+                "points": "sfimE`_wnUt@H?hE?vF?~B?`@`@A@\\UVU??i@?gCA{E?eG?}QEgb@Bqs@A{]Acf@?gm@[iGw@aDsAaCkDkFgAwAoByEa@oCGyR?iD@sA`Hb@tCfAbAd@v@e@XVZMv@gDKYYKg@tBSz@INiBm@FUxAv@|@iDwD[?OACOM]BIREPa@IIf@]K_Ba@U^ALERCr@e@Aq@AaA?]@?zAAjF@hB?`DHrH^jCvAzDtG|JrAtCb@pBRfLAdSBnk@AfE@xDg@f@mApAkB`CoDrFyChFuBxCmAvBwIrJ{XtYsKlLaUnUeY~YePlMmDhCgH`HgN`OiMrNkCvE{AzDuB`JkDtUaAlEkChHqHtPmMtYaM~XqGrMgGpK{Nd^mKfX{IlSyFzMmDvGwOpTaE~G}AbF{FtXqChK}ExLcHhMqIbPwEpKwYhp@_HvOiFbKoC~DsFrGgMrRaGjMc@rAmBtGsDnKqInSsIrRiJlRiB`DgPb]aI~R_Or^oKrVqUzd@aVxh@_GtLwDhGyDbFkI`JiS|RqIxJsGxLgHzNmI`M}ChDwIjHoPlK_OfJiSjMmQjK__Adl@ay@ve@kPxJqE~DyCtDuJbO}NbUwQ|XiObU_GfFcCtAiHdCmZnGuIpBeHhDaUvO{]v]}KlLsKxP{[~ZyT~SmJ`IoFpCeFlDuM|LgKzJmLdN_HjJoCpFmEpFwF`FkDnDuBnDsMr^cD`KuA|G}AnG{CrGyIhVcGbQqBlJk@vGI~ODv^SnLq@nGsBnI}ClJcH|SsHfUyHrWyLzZ{Md^wBxDmCpDiFjFuA~@eAVe@SOgA^o@n@A^\\Ht@CbAa@vBy@|EM|VAjWO|LUnJCz@NVdABAXCJY@GRE|Bb@DDE?GB{@`BH\\@DqBuAUoAC}@D?xB?rBQ`HU~D_KhPuPfXcO|UuAxB_BhCm@q@{CcDcCkCcB_BmBgBMOy@vAo@hA_DxFmFpJ_AdBWb@OOh@cAVRj@cATc@TRSXc@x@xDlDzA|Db@`GOnFaGlKsGjNwHlQsMx^yDjLaLx\\{CzG{L~QqKbZGpTqAbJkBtEYQi@jAu@tAgA|AsB|AeC`AiDh@eCA{Be@kE}BaEkAwLK}N@sP@KTgU@eZDqz@BuXGaOXwDfC?b[Ab|@NrtBRvpAGpB@vSQtDgBjHuAbCiBrBeDrBaEhBiNjGye@xSg_A`b@o`Arb@wCj@_DDwRuCJw@cB]PSHCEIj@cAl@c@n@`@JQGe@HsF@wIJqAp@iBpCgCj@WRFLr@Rl@hABh@e@b@S"
+            },
+            "summary": "",
+            "warnings": [
+                "Walking directions are in beta. Use caution – This route may be missing sidewalks or pedestrian paths."
+            ],
+            "waypoint_order": []
+        }
+    ],
+    "status": "OK"
+}
