@@ -6,6 +6,8 @@
     "start": "func start",
     "test": "echo \"No tests yet...\""
   },
-  "dependencies": {},
-  "devDependencies": {}
+  "dependencies": {
+    "azure-functions-core-tools": "^4.0.4829",
+    "mongoose": "^6.6.5"
+  }
 }

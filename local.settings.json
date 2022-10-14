@@ -2,7 +2,7 @@
   "IsEncrypted": false,
   "Values": {
     "FUNCTIONS_WORKER_RUNTIME": "node",
-    "CUSTOMCONNSTR_MONGO_DB_1": "mongodb://prod-erp-system:6kGOF5BDq7YBimZVOjZIPAC8dVENUgTUDFtdTorTuxHIEnqpxWX6NEpEiCm7WVJxKGkEmhGoX254ubTwi8sgnA==@prod-erp-system.mongo.cosmos.azure.com:10255/Master?ssl=true&replicaSet=globaldb&retrywrites=false&maxIdleTimeMS=120000&appName=@prod-erp-system@"
+    "CUSTOMCONNSTR_MONGO_DB": "mongodb+srv://admin:HV87j4GhJf1jRWW2@eco-motion.ssmufrf.mongodb.net/test"
   },
   "Host": {
     "CORS": "*"

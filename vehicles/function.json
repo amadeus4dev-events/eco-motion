@@ -5,7 +5,7 @@
       "type": "httpTrigger",
       "direction": "in",
       "name": "req",
-      "methods": ["get", "post"],
+      "methods": ["get", "post", "put", "delete", "insert_many", "get_one"],
       "route": "vehicles/{id?}"
     },
     {

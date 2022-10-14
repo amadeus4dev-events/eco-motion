@@ -1,13 +1,22 @@
+// Model is imported
+const { Vehicle } = require('../models/vehicle.model');
+const {
+  get,
+  post,
+  insert_many,
+  destroy,
+  put,
+  get_one,
+} = require('../services/default');
+
+var executeMap = {
+  GET: get(Vehicle),
+  POST: post(Vehicle),
+  insert_many: insert_many(Vehicle),
+  DELETE: destroy(Vehicle),
+  PUT: put(Vehicle),
+  GET_ONE: get_one(Vehicle),
+};
 module.exports = async function (context, req) {
-    context.log('JavaScript HTTP trigger function processed a request.');
-
-    const name = (req.query.name || (req.body && req.body.name));
-    const responseMessage = name
-        ? "Hello, " + name + ". This HTTP triggered function executed successfully."
-        : "This HTTP triggered function executed successfully. Pass a name in the query string or in the request body for a personalized response.";
-
-    context.res = {
-        // status: 200, /* Defaults to 200 */
-        body: responseMessage
-    };
-}
+  if (executeMap[req.method]) return executeMap[req.method](context, req);
+};
