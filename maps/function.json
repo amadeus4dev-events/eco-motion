@@ -5,7 +5,7 @@
       "type": "httpTrigger",
       "direction": "in",
       "name": "req",
-      "methods": ["get_transit"],
+      "methods": ["get"],
       "route": "maps/{id?}"
     },
     {
