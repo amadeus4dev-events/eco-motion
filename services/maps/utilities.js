@@ -34,7 +34,7 @@ function CO2(steps) {
             : step.transit_details.line.vehicle.type
         ] * step.distance.value)
   );
-  return (total_emission / 1000).toFixed(2);
+  return parseFloat((total_emission / 1000).toFixed(2));
 }
 
 function calculate_carbon_emissions(routes) {
