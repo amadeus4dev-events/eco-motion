@@ -3,8 +3,13 @@ const axios = require('axios');
 const { calculate_carbon_emissions } = require('./utilities');
 
 // Get method with url filters inserted
-const get_road = () => async (context, req) => {
-  var params = { ...req.query, key: process.env.CUSTOMCONNSTR_GOOGLE_KEY };
+const get_road_transit = () => async (context, req) => {
+  var params = {
+    ...req.query,
+    key: process.env.CUSTOMCONNSTR_GOOGLE_KEY,
+    alternatives: true,
+    mode: 'transit',
+  };
 
   var config = {
     method: 'get',
@@ -24,5 +29,5 @@ const get_road = () => async (context, req) => {
 };
 
 module.exports = {
-  get_road,
+  get_road_transit,
 };
