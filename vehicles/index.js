@@ -7,7 +7,7 @@ const {
   destroy,
   put,
   get_one,
-} = require('../services/default');
+} = require('../services/default.service');
 
 var executeMap = {
   GET: get(Vehicle),
