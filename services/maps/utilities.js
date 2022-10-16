@@ -23,6 +23,7 @@ function find_smallest_by_field(routes, field) {
   });
   return routes;
 }
+// Used to get the sorted values by co2 and duration
 function get_sorted_by_field(routes) {
   let result = [[], []];
   routes.map((route) => {
@@ -49,7 +50,7 @@ function get_sorted_by_field(routes) {
   });
   return routes;
 }
-
+// Used to calculate the carbon emission and sort
 function calculate_carbon_emissions(data) {
   data.routes.map((route) => (route.co2 = CO2(route.legs[0].steps)));
   data.routes = get_sorted_by_field(data.routes);

@@ -5,7 +5,15 @@
       "type": "httpTrigger",
       "direction": "in",
       "name": "req",
-      "methods": ["get", "post", "put", "delete", "insert_many", "get_one"],
+      "methods": [
+        "get",
+        "post",
+        "put",
+        "delete",
+        "insert_many",
+        "get_one",
+        "get_stats"
+      ],
       "route": "stats/{id?}"
     },
     {
