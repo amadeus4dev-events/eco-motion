@@ -33,7 +33,7 @@ const get_stats = (Type) => async (context, req) => {
     { $match: { ...req.query, ...filter } },
     {
       $group: {
-        _id: { $dateToString: { format: '%Y-%m-%d', date: '$createdAt' } },
+        _id: '$createdAt',
         preffered_distance: { $sum: '$preffered.distance' },
         preffered_duration: { $sum: '$preffered.duration' },
         preffered_CO2: { $sum: '$preffered.CO2' },
@@ -44,6 +44,7 @@ const get_stats = (Type) => async (context, req) => {
     },
     {
       $addFields: {
+        day_of_week: { $dayOfWeek: { date: '$_id' } },
         preffered: {
           distance: '$preffered_distance',
           duration: '$preffered_duration',
@@ -56,7 +57,7 @@ const get_stats = (Type) => async (context, req) => {
         },
       },
     },
-    { $project: { preffered: 1, optimal: 1, _id: 1 } },
+    { $project: { preffered: 1, optimal: 1, _id: 1, day_of_week: 1 } },
   ])
     .then((docs) => {
       context.res = { status: 200, body: filter_stats(docs) };
