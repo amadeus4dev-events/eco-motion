@@ -23,6 +23,7 @@ const CARBON_EMISSION_PER_METER = {
   DRIVING: 0.0966,
   BICYCLING: 0.002,
 };
+
 const FIXED_TRAVEL_MODES = ['WALKING', 'DRIVING', 'BICYCLING'];
 
 module.exports = {
