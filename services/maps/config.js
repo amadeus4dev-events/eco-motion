@@ -1,4 +1,4 @@
-// Carbon emission gram per km
+// Carbon emission gram per meter
 const CARBON_EMISSION_PER_METER = {
   BUS: 0.0966,
   WALKING: 0.0002,
