@@ -3,20 +3,27 @@ db.getCollection('stats').aggregate([
   {
     $group: {
       _id: { $dateToString: { format: '%Y-%m-%d', date: '$createdAt' } },
+      preffered_distance: { $sum: '$preffered.distance' },
+      preffered_duration: { $sum: '$preffered.duration' },
+      preffered_CO2: { $sum: '$preffered.CO2' },
+      optimal_distance: { $sum: '$optimal.distance' },
+      optimal_duration: { $sum: '$optimal.duration' },
+      optimal_CO2: { $sum: '$optimal.CO2' },
+    },
+  },
+  {
+    $addFields: {
       preffered: {
-        $addToSet: {
-          distance: { $sum: '$preffered.distance' },
-          duration: { $sum: '$preffered.duration' },
-          CO2: { $sum: '$preffered.CO2' },
-        },
+        distance: '$preffered_distance',
+        duration: '$preffered_duration',
+        CO2: '$preffered_CO2',
       },
       optimal: {
-        $addToSet: {
-          distance: { $sum: '$optimal.distance' },
-          duration: { $sum: '$optimal.duration' },
-          CO2: { $sum: '$optimal.CO2' },
-        },
+        distance: '$optimal_distance',
+        duration: '$optimal_duration',
+        CO2: '$optimal_CO2',
       },
     },
   },
+  { $project: { preffered: 1, optimal: 1, _id: 1 } },
 ]);
